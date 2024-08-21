@@ -1,0 +1,24 @@
+.container {
+    max-width: 800px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: -1px 10px 29px 15px rgba(0, 0, 0, 0.1);
+}
+
+
+
+
+.randomize-button {
+    background-color: #ff0026f7;
+    color: rgb(0, 0, 0);
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.randomize-button:hover {
+    background-color: #c20c0cce;
+    
+}

@@ -1,0 +1,26 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Display</title>
+   
+</head>
+<body>
+
+<div class="container">
+    <div class="product">
+        <img src="https://c8.alamy.com/comp/KFE7BK/sports-car-owned-by-rich-business-man-fast-red-car-KFE7BK.jpg" alt="Product Image">
+        <h1> {{car.name}}</h1>
+        <p>This is a great car that you will love!</p>
+        <div class="price">${{car.price}}</div>
+        <button class="buy-button" (click)="buyButtonOnClick()" >Buy Now</button>
+    </div>
+</div>
+
+
+
+</body>
+</html>
+
