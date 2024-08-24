@@ -9,6 +9,7 @@ import { ProductComponent } from './product/product.component';
 import { RandomQuoteComponent } from './random-quote/random-quote.component';
 import { RandomNumberComponent } from './random-number/random-number.component';
 import { RandomNameComponent } from './random-name/random-name.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { RandomNameComponent } from './random-name/random-name.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -1,9 +1,10 @@
  
 <div class="container">
-    <div class="product">
-
+    <div>
         <h1 >The generated random name is :</h1>
         <h1 class="green" > {{randomName}}  </h1>
+        <br>
+        <input class="red" [(ngModel)]="randomName" type="text"/>
         <button class="buy-button" (click)="generateRandomName()" >Generate Random Name</button>
     </div>
 </div>

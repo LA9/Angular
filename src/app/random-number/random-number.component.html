@@ -4,6 +4,13 @@
         <h1 >The generated random number is :</h1>
 
         <h1 class="red" >  {{randomNumber}}  </h1>
+        <div *ngIf="randomNumber > 500; else loggedOut">
+            <h1 class="red"> greater than 500 </h1>
+        </div>
+        <ng-template #loggedOut>
+            <h1 class="red"> less than 500 </h1>
+        </ng-template>
+
         <button class="buy-button" (click)="generateRandomNumber()" >Generate Random Number</button>
     </div>
 </div>
