@@ -10,6 +10,8 @@ import { RandomQuoteComponent } from './random-quote/random-quote.component';
 import { RandomNumberComponent } from './random-number/random-number.component';
 import { RandomNameComponent } from './random-name/random-name.component';
 import { FormsModule } from '@angular/forms';
+import { JungleComponent } from './input/jungle/jungle.component';
+import { ZooComponent } from './input/zoo/zoo.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +21,9 @@ import { FormsModule } from '@angular/forms';
     ProductComponent,
     RandomQuoteComponent,
     RandomNumberComponent,
-    RandomNameComponent
+    RandomNameComponent,
+    JungleComponent,
+    ZooComponent
   ],
   imports: [
     BrowserModule,
