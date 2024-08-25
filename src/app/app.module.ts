@@ -10,8 +10,15 @@ import { RandomQuoteComponent } from './random-quote/random-quote.component';
 import { RandomNumberComponent } from './random-number/random-number.component';
 import { RandomNameComponent } from './random-name/random-name.component';
 import { FormsModule } from '@angular/forms';
-import { JungleComponent } from './input/jungle/jungle.component';
-import { ZooComponent } from './input/zoo/zoo.component';
+import { JungleComponent } from './input1/jungle/jungle.component';
+import { ZooComponent } from './input1/zoo/zoo.component';
+import { SettingsComponent } from './input2/settings/settings.component';
+import { ProfileComponent } from './input2/profile/profile.component';
+import { UsersComponent } from './input3/users/users.component';
+import { User1Component } from './input3/user1/user1.component';
+import { User2Component } from './input3/user2/user2.component';
+import { User3Component } from './input3/user3/user3.component';
+import { Users4Component } from './input3/user4/users4.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +30,14 @@ import { ZooComponent } from './input/zoo/zoo.component';
     RandomNumberComponent,
     RandomNameComponent,
     JungleComponent,
-    ZooComponent
+    ZooComponent,
+    SettingsComponent,
+    ProfileComponent,
+    UsersComponent,
+    User1Component,
+    User2Component,
+    User3Component,
+    Users4Component
   ],
   imports: [
     BrowserModule,
