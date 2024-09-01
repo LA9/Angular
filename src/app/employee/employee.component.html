@@ -1,0 +1,23 @@
+ 
+
+
+
+
+<h2>
+    {{greetingsService.greetings1}} <br>
+    {{greetingsService.greetings2}}<br>
+    {{greetingsService.greetings3}}<br>
+    {{greetingsService.greetings4}}<br>
+    {{greetingsService.greetings6}}<br>
+    {{greetingsService.greetings5}}<br>
+</h2>
+
+
+<div *ngFor="let item of employeeService.employeeList let i =index">
+   name {{i+1}}:  {{item}}
+</div>
+
+
+
+<button (click)="greetingsService.displayGreetings()" >Display greetings in console</button>
+<button (click)="greetingsService.displayRandomGreetings()" >Randomize greetings in console</button>

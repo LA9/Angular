@@ -19,6 +19,7 @@ import { User1Component } from './input3/user1/user1.component';
 import { User2Component } from './input3/user2/user2.component';
 import { User3Component } from './input3/user3/user3.component';
 import { Users4Component } from './input3/user4/users4.component';
+import { EmployeeComponent } from './employee/employee.component';
 
 @NgModule({
   declarations: [
@@ -37,7 +38,8 @@ import { Users4Component } from './input3/user4/users4.component';
     User1Component,
     User2Component,
     User3Component,
-    Users4Component
+    Users4Component,
+    EmployeeComponent
   ],
   imports: [
     BrowserModule,
